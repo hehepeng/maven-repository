@@ -1,29 +1,29 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <metadata modelVersion="1.1.0">
-  <groupId>com.gateway.security</groupId>
-  <artifactId>cloud-component-security-starter</artifactId>
+  <groupId>com.minio</groupId>
+  <artifactId>minio-spring-boot-starter</artifactId>
   <versioning>
-    <lastUpdated>20240219102736</lastUpdated>
+    <lastUpdated>20240227033128</lastUpdated>
     <snapshot>
-      <timestamp>20240219.102736</timestamp>
+      <timestamp>20240227.033128</timestamp>
       <buildNumber>1</buildNumber>
     </snapshot>
     <snapshotVersions>
       <snapshotVersion>
         <extension>jar</extension>
-        <value>0.0.1-20240219.102736-1</value>
-        <updated>20240219102736</updated>
+        <value>0.0.1-20240227.033128-1</value>
+        <updated>20240227033128</updated>
       </snapshotVersion>
       <snapshotVersion>
         <extension>pom</extension>
-        <value>0.0.1-20240219.102736-1</value>
-        <updated>20240219102736</updated>
+        <value>0.0.1-20240227.033128-1</value>
+        <updated>20240227033128</updated>
       </snapshotVersion>
       <snapshotVersion>
         <classifier>sources</classifier>
         <extension>jar</extension>
-        <value>0.0.1-20240219.102736-1</value>
-        <updated>20240219102736</updated>
+        <value>0.0.1-20240227.033128-1</value>
+        <updated>20240227033128</updated>
       </snapshotVersion>
     </snapshotVersions>
   </versioning>
