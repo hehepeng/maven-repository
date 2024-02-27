@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata>
+  <groupId>com.gateway.security</groupId>
+  <artifactId>cloud-component-security-spring-boot-starter</artifactId>
+  <versioning>
+    <versions>
+      <version>0.0.1-SNAPSHOT</version>
+    </versions>
+    <lastUpdated>20240227033908</lastUpdated>
+  </versioning>
+</metadata>
