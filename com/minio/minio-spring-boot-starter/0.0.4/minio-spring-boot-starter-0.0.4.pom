@@ -97,25 +97,25 @@
 	<build>
 		<!-- 此tag下面的所有plugins都是关于上传jar包的依赖 -->
 		<plugins>
-			<plugin>
-				<!-- https://gitee.com/roseboy/classfinal -->
-				<groupId>net.roseboy</groupId>
-				<artifactId>classfinal-maven-plugin</artifactId>
-				<version>1.2.1</version>
-				<configuration>
-					<password>1234567</password><!--加密打包之后pom.xml会被删除，不用担心在jar包里找到此密码-->
-					<packages>com.minio</packages>
-					<excludes>org.spring</excludes>
-				</configuration>
-				<executions>
-					<execution>
-						<phase>package</phase>
-						<goals>
-							<goal>classFinal</goal>
-						</goals>
-					</execution>
-				</executions>
-			</plugin>
+<!--			<plugin>-->
+<!--				&lt;!&ndash; https://gitee.com/roseboy/classfinal &ndash;&gt;-->
+<!--				<groupId>net.roseboy</groupId>-->
+<!--				<artifactId>classfinal-maven-plugin</artifactId>-->
+<!--				<version>1.2.1</version>-->
+<!--				<configuration>-->
+<!--					<password>1234567</password>&lt;!&ndash;加密打包之后pom.xml会被删除，不用担心在jar包里找到此密码&ndash;&gt;-->
+<!--					<packages>com.minio</packages>-->
+<!--					<excludes>org.spring</excludes>-->
+<!--				</configuration>-->
+<!--				<executions>-->
+<!--					<execution>-->
+<!--						<phase>package</phase>-->
+<!--						<goals>-->
+<!--							<goal>classFinal</goal>-->
+<!--						</goals>-->
+<!--					</execution>-->
+<!--				</executions>-->
+<!--			</plugin>-->
 
 			<plugin>
 				<groupId>org.apache.maven.plugins</groupId>
